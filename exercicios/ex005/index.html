@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo</title>
+    <style>
+ 
+        /* Makes the animation pause on hover */
+        .moving-text:hover{
+            animation-play-state: paused;
+        }
+ 
+        /* The animation */
+        @keyframes marquee{
+            0%{transform: translateX(100%);}
+            100%{transform: translateX(-100%);}
+        }
+ 
+        /* media query to enable animation for only those who want it */
+        @media (prefers-reduced-motion: no-preference) {
+            .moving-text{
+                animation: marquee 15s linear infinite;
+                font-size: 30px;
+                text-align: justify;
+            }
+        }
+        body{
+            background-color: pink;
+        }
+    </style>
+
+</head>
+<body>
+    <marquee behavior="alternate" direction="right" vspace="10%"><h1>❤️Te amo, Chichi❤️</h1></marquee>
+        <br>
+        <p class="moving-text">
+            Hoje eu não estou sozinho
+            Você está na minha
+            Não adianta se esconder
+            Já não tem mais jeito
+            Tudo está perfeito
+            Agora é só eu e você
+            Juntos na mesma estrada
+            Atravessando a madrugada
+            Pra ver o sol nascer
+            E em nossa aurora perceber
+            A delícia de viver
+            Tudo que a gente sempre quis
+            Olhar nos olhos de alguém
+            E conseguir dizer:
+            Estou feliz!
+            Hoje eu não estou sozinho
+            Você está na minha
+            Não adianta se esconder
+            Já não tem mais jeito
+            Tudo está perfeito
+            Agora é só eu e você
+            Juntos na mesma estrada
+            Atravessando a madrugada
+            Pra ver o sol nascer
+            E em nossa aurora perceber
+            A delícia de viver
+            Tudo que a gente sempre quis
+            Olhar nos olhos de alguém
+            E conseguir dizer:
+            Estou feliz!
+            Estou feliz!
+            Estou feliz!
+            Fica comigo
+            Namora comigo
+            Casa comigo
+            Viva comigo até o fim
+            Eu sou seu abrigo
+            Não tem mais perigo
+            Fica comigo
+            Namora comigo até o fim
+            Fica comigo até o fim
+            Eu sou seu abrigo
+            Namora comigo até o fim
+            Fica comigo
+            Namora comigo
+            Casa comigo</p>
+</body>
+</html>

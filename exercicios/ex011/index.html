@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML 5 </title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<H1> Imagem dinâmica</H1>
+<p>Tente abir esse site em vários dispositivos diferentes  ou simplesmente 
+    12aumente e diminua o tamanho do seu navegador.</p>
+<body>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reprodução de mídia</h1>
+    <p>O conteúdo também está disponível em audio.</p>
+
+    <audio controls autoplay preload="metadata">
+        <source src="midia/March of the Hares - Nathan Moore.mp3" type="audio/mpeg">
+    </audio>
+    
+    <p><a href="midia/March of the Hares - Nathan Moore.mp3">Clique aqui para fazer o download do arquivo</a></p>
+
+</body>
+</html>

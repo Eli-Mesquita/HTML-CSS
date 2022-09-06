@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+     <img id='logo_ifce' src="Images/logo_ifce 200.png" alt="logo_ifce" class="inline"><h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label"> Name: <input id="name"  type="text" placeholder="Insert your name" required></input></label>
+      <br>
+      <label id="email-label"> Email: <input id="email" type="email" placeholder="Insert your email" required></input></label>
+      <br>
+      <label id="number-label"> Age: <input id="number" type="number" placeholder="Age" min="13" max="120" required></input></label>
+      <br>
+      <label>
+        <select id="dropdown">
+          <option> Choose one </option>
+          <option> Student </option>
+          <option> Teacher </option>
+        </select> Current role</label>
+      </fieldset>
+      <fieldset>
+        <p>Affiliation:</p>
+      <label><input type="radio" value="1" class="inline" name="institution"></input> IFCE</label>
+        <label><input type="radio" value="2" class="inline" name="institution"></input> Another Institution </label>
+      </fieldset>
+      <fieldset>
+        <p>Area of study:</p>
+        <input id="checkbox" type="checkbox" value="1" class="inline"> Ciência da Computação</input>
+        <input id="checkbox" type="checkbox" value="2" class="inline"> Física</input>
+        <input id="checkbox" type="checkbox" value="3" class="inline"> Letras</input>
+        <br><br>
+        <label>Suggestions and comments: 
+          <br>
+          <textarea placeholder="please leave a comment." rows="3" cols="30"></textarea>
+          </label>
+
+      </fieldset>
+      <button id="submit">Submit</submit>
+    </form>
+  
+    <hr>
+
+  </body>
+</html>

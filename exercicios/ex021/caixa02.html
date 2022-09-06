@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(2, 90, 2);
+            padding: 3px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.726);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            margin-right: 10px;
+           
+            
+            
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            background-color: blueviolet;
+        }
+
+        body {
+            background-color: dimgray;
+            margin: 0%;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(169, 167, 167);
+            text-align: center
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 5% 45%;
+            border-radius: 50%;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="content">
+
+        </section>
+        <section id="news">
+            <article>
+                <h2>News of the week</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta amet necessitatibus repellat commodi, illo repudiandae ad minus reiciendis cum repellendus ratione quidem exercitationem facere rerum, eum consequatur non similique velit!</p>
+                <aside>
+                    <p>Artigo escrito por Eli Mesquita</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <div id="bola"></div>
+    <footer>
+        desenvolvido pelo IFCE
+
+    </footer>
+   
+    
+</body>
+</html>

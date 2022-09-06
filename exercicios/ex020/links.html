@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+        }
+
+       a:visited {
+        color: blue;
+       }
+
+        a:hover {
+            color: red;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a:active {
+            color: yellowgreen;
+        }
+
+        a::after, a::before {
+            content: "Go";
+            color: brown;
+            font-size: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://www.instagram.com/potiqualho/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UCJBHE8MSgvWGiLkBhIzLCzQ" target="_blank">YouTube</a></li>
+        <li><a href="https://www.facebook.com/eli.mesquita/" target="_blank">FaceBook</a></li>
+    </ul>
+</body>
+</html>
