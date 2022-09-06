@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --fonte-destaque: 'Bebas Neue', Arial;
+}
 
 * {
   margin: 0;
@@ -27,6 +34,7 @@
  }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #e5d4ce;
     text-align: center;
     min-height: 100vh;
@@ -104,13 +112,15 @@ body {
  }
 
  .button {
+  font-family: Arial, Helvetica, sans-serif;
    display: inline-block;
    border-radius: 5px;
    background-color: #C90C0F;
    border: none;
    color: #FFFFFF;
    text-align: center;
-   font-size: 1em;
+   font-size: 1.2em;
+   font-weight: bold;
    padding: 10px;
    width: 95%;
    transition: all 0.5s;
