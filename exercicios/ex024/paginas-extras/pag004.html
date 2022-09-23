@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 200px;
+            text-align: center;
+            line-height: 2em;
+            margin: auto;
+            border: 1px solid black;
+        }
+
+        h1 {
+            background-color: rgb(109, 109, 252);
+            padding: 20px;
+            margin-top: 0%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+
+        <div class="container">
+            <h1>Log in or register </h1>
+            <p>
+                Nome:
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <br>
+                Senha:
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+                <br>
+                <input type="submit" value="Cadastrar">
+            </p>
+        </div>
+    </form>
+</body>
+</html>
